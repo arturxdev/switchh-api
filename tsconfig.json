@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES6"],
+    "types": ["node", "jest"],
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "config/*": ["config/*"],
+      "entities/*": ["entities/*"],
+      "repositories/*": ["repositories/*"],
+      "routes/*": ["routes/*"],
+      "services/*": ["services/*"],
+      "utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
